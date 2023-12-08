@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+span{
+    font-style: italic;
+}
+
+.list-container{
+    display: inline-block;
+    border-style: solid;
+    border-width: 0.5px;
+    padding-right: 5px;
+}
+
+.list-container>p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.img-container{
+    float: right;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.img-container>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-html{
+    max-width: 100px;
+
+}
+
+.ttx{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.op{
+    float: right;
+    border-style: hidden;
+    border-left: 0px;
+    border-right: 40px;
+    list-style: none;
+    max-width: min-content;
+}
+
+.qqw{
+    display: block;
+}
+
+
+/* Верхняя навигацыя */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(166, 222, 248);
+}
+.nav-container>nav>ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-container>nav>ul>li>a {
+    display: block;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+
+@media (max-wight: 900px) {
+    .nav-container{
+      flex-direction: column;
+    }
+}
+
+.text-page{
+    padding-left: 15px;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    width: 14%;
+    background-color: aquamarine;
+}
+
+.section{
+    width: 84%;
+}
+
+.header>ol {
+    list-style: none;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    margin: 10px;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+/*  */
+.header>div {
+    width: 100%;     /*Це не є обов'язковим (буде функціонувати і так)*/
+}
+/*  */
+.header>div>img {
+    width: 100%;
+}
